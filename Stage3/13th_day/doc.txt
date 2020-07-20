@@ -1,0 +1,236 @@
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ nano email.sh
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@yahoo.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc-100@yahoo.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc.100@yahoo.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc111@abc.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc-100@abc.net
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@1.com
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ nano email.sh
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@1.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@gmail.com.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc+100@gmail.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ abc@gmail.com.aa.au
+bash: abc@gmail.com.aa.au: command not found
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@gmail.com.aa.au
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ nano email.sh
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@gmail.com.au
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@gmail.com.aa.au
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@gmail.com.aa.au.au
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@gmail.com.1a
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ nano email.sh
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@gmail.com.1a
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ nano email.sh
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@gmail.com.1a
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc+100@gmail.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@gmail.com.aa.au
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@1.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc.100@abc.com.au
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ nano email.sh
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc.100@abc.com.au
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@gmail.com.1a
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@gmail.com.aa.au
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@.com,my
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc123@gmail.a
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc123@.com
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: .abc@abc.com
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc()*@gmail.com
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@%*.com
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc..2002@gmail.com
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc.@gmail.com
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@abc@gmail.com
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@gmail.com.aa.au
+Invalid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@yahoo.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc-100@yahoo.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc.100@yahoo.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc111@yahoo.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc-111@abc.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc.100@abc.com.au
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@1.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc@gmail.com.com
+Valid
+
+nitin@LAPTOP-3LQ35BQE MINGW64 ~/Desktop/BridgeLabz/Terminal Commands/linux-content/13th_day (master)
+$ ./email.sh
+Enter the email: abc+100@gmail.com
+Valid
