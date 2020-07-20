@@ -1,16 +1,11 @@
 #!/bin/bash -x
 
-shopt -s extglob
 read -p "Enter a postal code: " postal
+pattern="^[[:digit:]]{3}[[:space:]]{0,1}[[:digit:]]{3}$"
 
-pat="^[^a-zA-Z\W\s][0-9]{3}[ ]{0,1}[0-9]{3}[^a-zA-Z\W\s]$"
-
-
-if [[ $postal =~ $pat ]]
+if [[ $postal =~ $pattern ]]
 then
-	echo "Valid"
+        echo "Valid Postal Code"
 else
-	echo "Invalid"
+        echo "Invalid Postal Code"
 fi
-
-

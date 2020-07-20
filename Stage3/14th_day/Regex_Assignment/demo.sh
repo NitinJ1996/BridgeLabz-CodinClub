@@ -2,7 +2,7 @@
 
 read -p "Enter the first name: " fname
 
-if [[ $fname =~ ^[[:upper:]]{1}[[:lower:]]{2,} ]]
+if [[ $fname =~ ^[[:upper:]]{1}[[:lower:]]{2,}$ ]]
 then
 	echo "$fname is valid"
 else
@@ -11,7 +11,7 @@ fi
 
 read -p "Enter the last name: " lname
 
-if [[ $lname =~ ^[[:upper:]][[:lower:]]{2,} ]]
+if [[ $lname =~ ^[[:upper:]][[:lower:]]{2,}$ ]]
 then
         echo "$lname is valid"
 else
@@ -20,7 +20,7 @@ fi
 
 read -p "Enter an email: " email
 
-pat="^[a-zA-Z0-9]+([.+_-]{1}[a-zA-Z0-9]{3,}){0,2}\@[a-zA-z]+\.[a-z]{2,}([.]{1}[a-z]{2,})"
+pat="^[a-zA-Z0-9]+([.+_-]{1}[a-zA-Z0-9]{3,}){0,2}\@[a-zA-z]+\.[a-z]{2,}([.]{1}[a-z]{2,}){0,2}$"
 
 if [[ $email =~ $pat ]]
 then
